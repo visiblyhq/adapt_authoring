@@ -102,7 +102,7 @@ installHelpers.checkPrimaryDependencies(function(error) {
             name: 'useConnectionUri',
             type: 'confirm',
             message: 'Will you be using a full database connection URI? (all connection options in the URI)',
-            default: false
+            default: true
           }
         ],
         configureUri: [
